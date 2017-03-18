@@ -1,0 +1,12 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mongodb": "mongodb://localhost:27017/y",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "LsO/JZ76OTy56XHDg3jjAUp5lWeHZkbMW0ivcVNcKAGqKGIFRZa1Xj4qNBME62j0VZ7iXC8eJ2L820GZqwDSiQ=="
+    },
+    "local": {}
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "Amstercats",
   "description": "Api for Amstercats",
   "version": "0.0.0",
   "homepage": "",
@@ -19,7 +19,8 @@
     "test": "npm run jshint && npm run mocha",
     "jshint": "jshint src/. test/. --config",
     "start": "node src/",
-    "mocha": "mocha test/ --recursive"
+    "mocha": "mocha test/ --recursive",
+    "seed": "node src/seeds.js"
   },
   "dependencies": {
     "body-parser": "^1.17.1",
@@ -27,6 +28,7 @@
     "cors": "^2.8.1",
     "feathers": "^2.1.1",
     "feathers-authentication": "^0.7.12",
+    "feathers-client": "^1.9.0",
     "feathers-configuration": "^0.3.3",
     "feathers-errors": "^2.6.2",
     "feathers-hooks": "^1.8.1",
@@ -36,6 +38,7 @@
     "mongoose": "^4.9.0",
     "passport": "^0.3.2",
     "serve-favicon": "^2.4.1",
+    "superagent": "^3.5.0",
     "winston": "^2.3.1"
   },
   "devDependencies": {

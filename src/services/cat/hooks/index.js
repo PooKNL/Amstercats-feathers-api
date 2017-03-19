@@ -17,19 +17,25 @@ const assignAuthor = function(options) {
 const populateAuthor = common.populate('author', { service: 'users', field: 'authorId' })
 
 exports.before = {
-  all: [
-    auth.verifyToken(),
-    auth.populateUser(),
-    auth.restrictToAuthenticated()
-  ],
+  all: [],
   find: [],
   get: [],
   create: [
     assignAuthor()
   ],
-  update: [],
-  patch: [],
-  remove: []
+  update: [
+    auth.verifyToken(),
+    auth.populateUser(),
+    auth.restrictToAuthenticated()
+  ],
+  patch: [
+    auth.verifyToken(),
+    auth.populateUser(),
+    auth.restrictToAuthenticated()
+  ],
+  remove: [
+    
+  ]
 };
 
 exports.after = {

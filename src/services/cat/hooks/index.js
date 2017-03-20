@@ -1,3 +1,4 @@
+// src/services/recipe/hooks/index.js
 'use strict';
 
 const globalHooks = require('../../../hooks');
@@ -34,7 +35,9 @@ exports.before = {
     auth.restrictToAuthenticated()
   ],
   remove: [
-    
+    auth.verifyToken(),
+    auth.populateUser(),
+    auth.restrictToAuthenticated()
   ]
 };
 

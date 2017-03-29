@@ -27,7 +27,10 @@ const cats = [
     age: '6 months',
     breed: 'Ragdoll',
     liked: false,
-    photo: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924697/Wally1_kxmjd4.jpg'
+    profilephoto: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924697/Wally1_kxmjd4.jpg',
+    photo1: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Wally2_okkize.jpg',
+    photo2: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779895/Wally3_ykw0b0.jpg',
+    photo3: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Wally4_xyl8zr.jpg',
   },
   {
     name: 'Art',
@@ -35,7 +38,9 @@ const cats = [
     age: '5 years',
     breed: 'European shorthair',
     liked: false,
-    photo: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924764/Ard1_oaasec.jpg'
+    profilephoto: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924764/Ard1_oaasec.jpg',
+    photo1: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Art2_wukdqa.jpg',
+    photo2: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Art3_s4le8z.jpg',
   },
   {
     name: 'Baas',
@@ -43,7 +48,7 @@ const cats = [
     age: '2 years',
     breed: 'Something',
     liked: false,
-    photo: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924754/Baas2_jz8llh.jpg'
+    profilephoto: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924754/Baas2_jz8llh.jpg',
   },
   {
     name: 'Barney',
@@ -51,7 +56,9 @@ const cats = [
     age: '1 year',
     breed: 'Something',
     liked: false,
-    photo: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924693/Barney1_euv9qs.jpg'
+    profilephoto: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924693/Barney1_euv9qs.jpg',
+    photo1: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Barney2_huxufi.jpg',
+    photo2: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Barney3_gqi3vm.jpg',
   },
   {
     name: 'Wally',
@@ -59,7 +66,10 @@ const cats = [
     age: '6 months',
     breed: 'Ragdoll',
     liked: false,
-    photo: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924697/Wally1_kxmjd4.jpg'
+    profilephoto: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924697/Wally1_kxmjd4.jpg',
+    photo1: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Wally2_okkize.jpg',
+    photo2: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779895/Wally3_ykw0b0.jpg',
+    photo3: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Wally4_xyl8zr.jpg',
   },
   {
     name: 'Art',
@@ -67,7 +77,9 @@ const cats = [
     age: '5 years',
     breed: 'European shorthair',
     liked: false,
-    photo: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924764/Ard1_oaasec.jpg'
+    profilephoto: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924764/Ard1_oaasec.jpg',
+    photo1: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Art2_wukdqa.jpg',
+    photo2: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Art3_s4le8z.jpg',
   },
   {
     name: 'Baas',
@@ -75,7 +87,7 @@ const cats = [
     age: '2 years',
     breed: 'Something',
     liked: false,
-    photo: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924754/Baas2_jz8llh.jpg'
+    profilephoto: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924754/Baas2_jz8llh.jpg',
   },
   {
     name: 'Barney',
@@ -83,7 +95,9 @@ const cats = [
     age: '1 year',
     breed: 'Something',
     liked: false,
-    photo: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924693/Barney1_euv9qs.jpg'
+    profilephoto: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924693/Barney1_euv9qs.jpg',
+    photo1: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Barney2_huxufi.jpg',
+    photo2: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Barney3_gqi3vm.jpg',
   },
   {
     name: 'Wally',
@@ -91,7 +105,10 @@ const cats = [
     age: '6 months',
     breed: 'Ragdoll',
     liked: false,
-    photo: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924697/Wally1_kxmjd4.jpg'
+    profilephoto: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924697/Wally1_kxmjd4.jpg',
+    photo1: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Wally2_okkize.jpg',
+    photo2: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779895/Wally3_ykw0b0.jpg',
+    photo3: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Wally4_xyl8zr.jpg',
   },
   {
     name: 'Art',
@@ -99,7 +116,9 @@ const cats = [
     age: '5 years',
     breed: 'European shorthair',
     liked: false,
-    photo: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924764/Ard1_oaasec.jpg'
+    profilephoto: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924764/Ard1_oaasec.jpg',
+    photo1: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Art2_wukdqa.jpg',
+    photo2: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Art3_s4le8z.jpg',
   },
   {
     name: 'Baas',
@@ -107,7 +126,7 @@ const cats = [
     age: '2 years',
     breed: 'Something',
     liked: false,
-    photo: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924754/Baas2_jz8llh.jpg'
+    profilephoto: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924754/Baas2_jz8llh.jpg',
   },
   {
     name: 'Barney',
@@ -115,7 +134,9 @@ const cats = [
     age: '1 year',
     breed: 'Something',
     liked: false,
-    photo: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924693/Barney1_euv9qs.jpg'
+    profilephoto: 'http://res.cloudinary.com/daahasvbo/image/upload/v1489924693/Barney1_euv9qs.jpg',
+    photo1: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Barney2_huxufi.jpg',
+    photo2: 'http://res.cloudinary.com/daahasvbo/image/upload/v1490779894/Barney3_gqi3vm.jpg',
   },
 ]
 

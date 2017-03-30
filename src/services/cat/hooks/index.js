@@ -1,10 +1,11 @@
-// src/services/recipe/hooks/index.js
 'use strict';
 
 const globalHooks = require('../../../hooks');
 const hooks = require('feathers-hooks');
 const auth = require('feathers-authentication').hooks;
 const common = require('feathers-hooks-common');
+const makeLikeable = require('./make-likeable');
+
 
 // before hook: assign authorId to the _id of the currently logged in user.
 const assignAuthor = function(options) {
@@ -27,12 +28,14 @@ exports.before = {
   update: [
     auth.verifyToken(),
     auth.populateUser(),
-    auth.restrictToAuthenticated()
+    auth.restrictToAuthenticated(),
+    makeLikeable()
   ],
   patch: [
     auth.verifyToken(),
     auth.populateUser(),
-    auth.restrictToAuthenticated()
+    auth.restrictToAuthenticated(),
+    makeLikeable()
   ],
   remove: [
     auth.verifyToken(),

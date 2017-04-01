@@ -1,6 +1,10 @@
-# y
+# Amstercats-feathers-api - WORK IN PROGRESS
 
-> Api for Amstercats
+> This repo contains a FeathersJs based API that I use for my Amstercats (ReactJS) webapplication. Both the frontend in React as the backend in feathers are a long term personal project for myself to better understand Javascript (ES6), React and feathers. The feathers backend also has working websockets installed. 
+
+The frontend is called Amstercats-React in my repo.
+
+RJ
 
 ## About
 

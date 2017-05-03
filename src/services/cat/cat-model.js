@@ -25,7 +25,8 @@ const catSchema = new Schema({
   photo5: { type: String, required: false },
   photo6: { type: String, required: false },
   age: { type: String, required: true },
-  likedBy: [ userSchema ],
+  likes: { type: Number, required: false},
+  likedBy: [ Schema.Types.ObjectId ],
   authorId: { type: Schema.Types.ObjectId, ref: 'user' },
   createdAt: { type: Date, 'default': Date.now },
   updatedAt: { type: Date, 'default': Date.now }

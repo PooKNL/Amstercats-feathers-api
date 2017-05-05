@@ -16,9 +16,23 @@ const catService = app.service('cats');
 
 const user = {
   name: 'Robert Jan',
-  email: 'rj.hogerbrugge@hotmail.com',
-  password: 'abcd1234'
-}
+  email: 'rj@hotmail.com',
+  password: 'abcd1234',
+  CatProfiles: [ObjectId("58dfa642a1ec0b5f4e1bab0a")]
+},
+{
+  name: 'Flip',
+  email: 'flip@hotmail.com',
+  password: 'abcd1234',
+  CatProfiles: [ObjectId("58dfa642a1ec0b5f4e1bab0b", ObjectId("58dfa642a1ec0b5f4e1bab11")]
+},
+{
+  name: 'Quinty',
+  email: 'quinty@hotmail.com',
+  password: 'abcd1234',
+  CatProfiles: [ObjectId("58dfa642a1ec0b5f4e1bab0c")] 
+},
+
 
 const cats = [
   {

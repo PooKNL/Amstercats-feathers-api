@@ -1,5 +1,7 @@
 'use strict';
 
+const createCat = require('./createCat');
+
 const globalHooks = require('../../../hooks');
 const hooks = require('feathers-hooks');
 const auth = require('feathers-authentication').hooks;
@@ -22,9 +24,7 @@ exports.before = {
   all: [],
   find: [],
   get: [],
-  create: [
-    assignAuthor()
-  ],
+  create: [assignAuthor(), createCat()],
   update: [
     auth.verifyToken(),
     auth.populateUser(),
